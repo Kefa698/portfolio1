@@ -1,3 +1,4 @@
+import About from './About';
 import './App.css';
 import Intro from './Intro';
 
@@ -6,6 +7,7 @@ function App() {
 		<div className="App">
 			<div>
 				<Intro />
+				<About />
 			</div>
 		</div>
 	);
